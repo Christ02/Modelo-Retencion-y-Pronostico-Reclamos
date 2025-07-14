@@ -1,7 +1,5 @@
 # Modelo-Retención-y-Pronóstico-Reclamos  
 **Proyecto Final – Data Science for Finance**  
-**María Isabel Ávila Rigalt** – Universidad Francisco Marroquín  
-
 ---
 
 ##  Descripción  
