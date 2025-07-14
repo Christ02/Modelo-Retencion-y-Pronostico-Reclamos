@@ -13,21 +13,22 @@ Este repositorio contiene dos pipelines de Machine Learning para **Europa Group*
 
 ##  Estructura del repositorio  
 
+```text
 .
-├── Data/                              # Datos de entrenamiento y prueba
-│   ├── train\_churn.csv
-│   ├── test\_churn.csv
-│   ├── train\_claims.csv
-│   └── test\_claims.csv
-├── outputs/                           # Resultados de las predicciones
-│   ├── prediccionesChurn.csv
-│   └── prediccionesClaims.csv
-├── ModeloChurns.R                     # Script de modelado y predicción de churn
-├── PerfilamientoChurns.R              # Exploración y perfilamiento de datos churn
-├── ModeloClaims.R                     # Script de modelado y predicción de claims
-├── PerfilamientoClaims.R              # Exploración y perfilamiento de datos claims
-└── README.md                          # Documentación (tú estás aquí)
-
+├── Data/                       # Carpeta con los datasets de entrada
+│   ├── train_churn.csv         # Datos de entrenamiento para el modelo de churn
+│   ├── test_churn.csv          # Datos de prueba para el modelo de churn
+│   ├── train_claims.csv        # Datos de entrenamiento para el modelo de claims
+│   └── test_claims.csv         # Datos de prueba para el modelo de claims
+├── outputs/                    # Carpeta con los archivos de predicciones
+│   ├── prediccionesChurn.csv   # Predicciones de abandono de clientes
+│   └── prediccionesClaims.csv  # Predicciones de montos de reclamos
+├── ModeloChurns.R              # Script de modelado y predicción de churn
+├── PerfilamientoChurns.R       # Script de exploración y perfilamiento de churn
+├── ModeloClaims.R              # Script de modelado y predicción de claims
+├── PerfilamientoClaims.R       # Script de exploración y perfilamiento de claims
+└── README.md                   # Documentación general del proyecto
+```
 
 ---
 
